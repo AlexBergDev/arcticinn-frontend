@@ -31,7 +31,7 @@ export { default as SingleSection } from "./sections/General/Section";
 export { default as SectionButton } from "./sections/General/SectionButton";
 export { default as GridSplit } from "./sections/General/GridSplit";
 export { default as BlogGrid } from "./sections/Blog/Grid";
-export { default as BlogCard } from "./sections/blog/Card";
+export { default as BlogCard } from "./sections/Blog/Card";
 export { default as RentalSection } from "./sections/Rental/Section";
 export { default as ArticleSection } from "./sections/Blog/Section";
 export { default as ArticlePicture } from "./sections/Blog/Picture";
