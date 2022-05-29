@@ -107,7 +107,7 @@ export default function Gallery() {
                 bottom="24px"
                 textAlign="center"
                 w="full"
-                mb={useBreakpointValue({ base: 4, md: 8 })}
+                mb={{ base: 4, md: 8 }}
                 color="white"
               >
                 <Heading
@@ -115,7 +115,7 @@ export default function Gallery() {
                   color={"white"}
                   as="h3"
                   lineHeight={1}
-                  fontSize={useBreakpointValue({ base: "xl", md: "2xl" })}
+                  fontSize={{ base: "xl", md: "2xl" }}
                   textTransform="uppercase"
                 >
                   {sid + 1} / {slidesCount} {slide.label}
@@ -191,7 +191,7 @@ export default function Gallery() {
                         textAlign={"center"}
                         as="h3"
                         lineHeight={1}
-                        fontSize={useBreakpointValue({ base: "xl", md: "2xl" })}
+                        fontSize={{ base: "xl", md: "2xl" }}
                         textTransform="uppercase"
                         mb={5}
                       >

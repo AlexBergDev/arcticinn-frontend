@@ -94,7 +94,7 @@ export default function App() {
               bottom="24px"
               textAlign="center"
               w="full"
-              mb={useBreakpointValue({ base: 4, md: 8 })}
+              mb={{ base: 4, md: 8 }}
               color="white"
             >
               <Heading
@@ -102,7 +102,7 @@ export default function App() {
                 color={"white"}
                 as="h1"
                 lineHeight={1}
-                fontSize={useBreakpointValue({ base: "3xl", md: "4xl" })}
+                fontSize={{ base: "3xl", md: "4xl" }}
                 textTransform="capitalize"
               >
                 {slide.label}
