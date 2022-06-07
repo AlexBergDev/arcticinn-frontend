@@ -22,6 +22,8 @@ Some key features of this project:
 - Form validation with yup and react-hook-form
 - Responsive across all devices
 
+[Demo link](https://arcticinn-frontend.vercel.app)
+
 ## Getting Started
 
 ### Installing
